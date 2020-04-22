@@ -1,0 +1,43 @@
+footer {
+  grid-area: ft;
+  height: 30px;
+  color: #ffffff;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.fab {
+    padding: 5px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fab:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: #ffffff;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: #ffffff;
+}
+
+
+.fa-linkedin {
+    background: #007bb5;
+    color: #ffffff;
+}
+
+
+
