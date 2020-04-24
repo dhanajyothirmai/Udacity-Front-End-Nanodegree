@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Fav Coffee Recipies</title>
+    <!-- Load Icons -->
+    <script src="https://kit.fontawesome.com/a83dba7890.js"></script>
+    <!-- Load Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Gochi+Hand|Montserrat&display=swap" rel="stylesheet">
+    <!-- Load Styles -->
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="page__header">
+        <nav class="navbar__menu">
+            <a href=#main__hero class="icon__link"><i class="fas fa-coffee fa-2x navbar__icon"></i></a>
+            <!-- Navigation starts as empty UL that will be populated with JS -->
+            <ul class="navbar__list" id="navbar__list"></ul>
+        </nav>
+    </header>
+    <!-- Hero -->
+    <header id="main__hero" class="main__hero">
+        <div class="text__wrapper">
+            <h2><span class="text__circles">Hakuna Ma'Coffee</span></h2>
+            <p>
+                "Not all who wander are lost. Most of them are just looking for coffee".
+            </p>
+
+            <p >
+                <span class="text--highlighted">OCD? Yeah?</span> Obsessive Coffee Disorder
+            </p>
+            <p>
+                Caffeine is the foundation of my food pyramid. Below are few of my favorite coffee types.
+                Yum! Yum!
+            </p>
+           
+        </div>
+        <div class="image__wrapper">
+            <img src="./img/coffee.jpg" alt="coffee" class="hero__image">
+        </div>
+    </header>
+    <!-- Each Section has an ID (used for the anchor) and
+    a data attribute that will populate the li node.
+    Adding more sections will automatically populate nav. -->
+    <section id="section1" data-nav="Espresso">
+        <div class="image__container">
+            <img src="./img/espresso.jpeg" alt="Espresso" class="image--type">
+        </div>
+        <div class="text__container">
+            <h2><span class="text__circles">#1</span>   Espresso</h2>
+            <p>
+                Espresso (ess-PRESS-oh) is a full-flavored, concentrated form of coffee that is served in "shots."It is made by forcing pressurized hot water through very finely ground coffee beans using an espresso machine. The result is a liquid stronger than coffee topped with a "crema," a brown foam that forms when  air bubbles combine with the soluble oils of fine-ground coffee and sits on top of a properly pulled shot of espresso. The crema adds to the rich flavor and lingering aftertaste of espresso.
+</p>
+
+            <p>
+                Espresso has all of the same flavors of coffee but amplified-bitter, lightly sweet, acidic, toasty. The exact flavor profile will vary depending on the coffee roast. It has a thicker, creamier texture than coffee.
+            </p>
+        </div>
+    </section>
+    <section id="section2" data-nav="Macchiato">
+        <div class="text__container">
+            <h2><span class="text__circles">#2</span>   Macchiato</h2>
+            <p>
+                The macchiato (mah-key-AH-toe) is a cornerstone of Italian coffee culture, along with the espresso and cappuccino, among other coffee drinks. It's basically an espresso (served in a demitasse cup) with a small amount of foamed milk on top -- the name macchiato means "marked." So really, you could look at it as a cross between an espresso and a cappuccino. Since Italians only drink cappuccino in the morning, a macchiato gives the afternoon drinker the option of having a little milk in their espresso for some extra flavor. It's also a good option for those who can't tolerate a strong espresso but find a cappuccino too weak and milky.
+            </p>
+
+        </div>
+        <div class="image__container">
+            <img src="./img/Macchiato.jpg" alt="Macchiato" class="image--type">
+        </div>
+    </section>
+    <section id="section3" data-nav="Cappuccino">
+        <div class="image__container">
+            <img src="./img/Cappuccino.jpg" alt="cappuccino" class="image--type">
+        </div>
+        <div class="text__container">
+            <h2><span class="text__circles">#3</span>   Cappucino</h2>
+            <p>
+                A cappuccino is an espresso-based coffee drink that originated in Italy, and is traditionally prepared with steamed milk foam (microfoam).
+
+                Variations of the drink involve the use of cream instead of milk, and flavoring with cinnamon or chocolate powder.It is typically smaller in volume than a caffe latte, with a thicker layer of microfoam.
+
+                The name comes from the Capuchin friars, referring to the colour of their habits, and in this context referring to the colour of the beverage when milk is added in small portion to dark, brewed coffee (today mostly espresso). The physical appearance of a modern cappuccino with espresso crema and steamed milk is a result of a long evolution of the drink.
+            </p>
+
+           
+        </div>
+    </section>
+    <section id="section4" data-nav="Americano">
+        <div class="text__container">
+            <h2><span class="text__circles">#4</span>   Americano</h2>
+            <p>
+                The popular theory is that the Americano got it's start in Italian coffee bars during World War II when American servicemen stationed in Italy would attempt to recreate American-style drip or filter coffee by diluting shots of the thick espresso with hot water. Italian espresso was too strong and longing for a taste of home, Americans made do with what was available.
+            </p>
+
+            <p>
+                To the Italians, this was practically a sacrilege, but it became so common amongst American GIs that it earned the name, Americano.
+            </p>
+        </div>
+        <div class="image__container">
+            <img src="./img/americano.jpg" alt="americano" class="image--type">
+        </div>
+    </section>
+    
+    </main>
+    <!-- footer code-->
+    <footer class=" page__footer">
+        <p class="footer__text">Website by Jyothirmai Thimmaraju</p>
+    </footer>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
